@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-            3D Print Lab
+            RC Factory
           </div>
 
           <div className="flex gap-6 text-sm text-muted-foreground">
@@ -28,7 +28,7 @@ const Footer = () => {
           </div>
 
           <div className="text-sm text-muted-foreground">
-            © {currentYear} 3D Print Lab. All rights reserved.
+            © {currentYear} RC factory. All rights reserved.
           </div>
         </div>
       </div>

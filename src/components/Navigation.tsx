@@ -19,7 +19,7 @@ const Navigation = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <a href="#home" className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-            3D Print Lab
+            RC Factory
           </a>
 
           {/* Desktop Navigation */}
