@@ -27,7 +27,7 @@ const Contact = () => {
                   <Mail className="w-7 h-7 text-primary" />
                 </div>
                 <h3 className="font-bold text-foreground">Email Us</h3>
-                <p className="text-sm text-muted-foreground">hello@3dprintlab.com</p>
+                <p className="text-sm text-muted-foreground">rcfactory471@gmail.com</p>
               </div>
 
               <div className="text-center space-y-3">
