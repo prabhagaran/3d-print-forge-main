@@ -1,0 +1,27 @@
+site_name: 3D Print Forge
+site_description: Documentation for 3D printing, miniature making & Hot Wheels customization showroom.
+site_author: Prabhagaran
+repo_name: prabhagaran/3d-print-forge-main
+repo_url: https://github.com/prabhagaran/3d-print-forge-main
+theme:
+  name: material
+  palette:
+    primary: blue
+    accent: deep orange
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.top
+    - toc.integrate
+    - content.code.copy
+nav:
+  - Home: index.md
+  - Requirements: requirements.md
+  - Features: features.md
+  - Review & Summary: review.md
+  - Gallery: gallery.md
+  - Contact: contact.md
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/prabhagaran/3d-print-forge-main
