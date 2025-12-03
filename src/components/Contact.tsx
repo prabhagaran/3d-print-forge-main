@@ -27,8 +27,12 @@ const Contact = () => {
 
           <Card className="p-8 md:p-12 bg-card/50 backdrop-blur-sm border-border">
             <div className="grid md:grid-cols-4 gap-8 mb-8">
-              {/* Email */}
-              <div className="text-center space-y-3">
+              
+              {/* Email (Clickable) */}
+              <a
+                href="mailto:rcfactory471@gmail.com"
+                className="text-center space-y-3"
+              >
                 <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-primary/10 border border-primary/20">
                   <Mail className="w-7 h-7 text-primary" />
                 </div>
@@ -36,7 +40,7 @@ const Contact = () => {
                 <p className="text-sm text-muted-foreground">
                   rcfactory471@gmail.com
                 </p>
-              </div>
+              </a>
 
               {/* Live Chat */}
               <div className="text-center space-y-3">
@@ -58,7 +62,7 @@ const Contact = () => {
 
               {/* WhatsApp */}
               <a
-                href="https://wa.me/+918754615471"
+                href="https://wa.me/9159919620"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-center space-y-3"
