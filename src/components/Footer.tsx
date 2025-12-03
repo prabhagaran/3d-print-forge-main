@@ -5,10 +5,13 @@ const Footer = () => {
     <footer className="bg-card border-t border-border py-8">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+
+          {/* Logo */}
           <div className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent">
             RC Factory
           </div>
 
+          {/* Navigation Links */}
           <div className="flex gap-6 text-sm text-muted-foreground">
             <a href="#home" className="hover:text-primary transition-colors">
               Home
@@ -27,8 +30,9 @@ const Footer = () => {
             </a>
           </div>
 
+          {/* Copyright */}
           <div className="text-sm text-muted-foreground">
-            © {currentYear} RC factory. All rights reserved.
+            © {currentYear} RC Factory. All rights reserved.
           </div>
         </div>
       </div>
