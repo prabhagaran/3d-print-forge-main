@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Mail, MessageSquare, Clock, Phone } from "lucide-react";
+import { Mail, MessageSquare, Clock, Phone, Instagram } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -26,11 +26,11 @@ const Contact = () => {
           </div>
 
           <Card className="p-8 md:p-12 bg-card/50 backdrop-blur-sm border-border">
-            <div className="grid md:grid-cols-4 gap-8 mb-8">
+            <div className="grid md:grid-cols-5 gap-8 mb-8">
 
               {/* Email (Clickable + Pre-filled Subject & Body) */}
               <a
-                href={`mailto:rcfactory471@gmail.com?subject=Project%20Inquiry%20%E2%80%93%20RC%20Factory&body=Hi%20RC%20Factory%20Team,%0D%0A%0D%0AI%20would%20like%20to%20discuss%20a%20new%20project.%20Please%20get%20back%20to%20me%20with%20the%20details.%0D%0A%0D%0AThanks!`}
+                href={`mailto:rcfactory471@gmail.com?subject=Project%20Inquiry%20%E2%80%93%20RC%20Factory&body=Hi%20RC%20Factory%20Team,%0D%0A%0D%0AI%20would%20like%20to%20discuss%20a%20new%20project.%20Please%20get%20back%20to%20me.%0D%0A%0D%0AThanks!`}
                 className="text-center space-y-3"
               >
                 <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-primary/10 border border-primary/20">
@@ -48,9 +48,7 @@ const Contact = () => {
                   <MessageSquare className="w-7 h-7 text-accent" />
                 </div>
                 <h3 className="font-bold text-foreground">Live Chat</h3>
-                <p className="text-sm text-muted-foreground">
-                  Available 9 AM - 6 PM
-                </p>
+                <p className="text-sm text-muted-foreground">Available 9 AM - 6 PM</p>
               </div>
 
               {/* Quick Response */}
@@ -59,14 +57,12 @@ const Contact = () => {
                   <Clock className="w-7 h-7 text-primary" />
                 </div>
                 <h3 className="font-bold text-foreground">Quick Response</h3>
-                <p className="text-sm text-muted-foreground">
-                  Within 24 hours
-                </p>
+                <p className="text-sm text-muted-foreground">Within 24 hours</p>
               </div>
 
               {/* WhatsApp */}
               <a
-                href="https://wa.me/+918754615471"
+                href="https://wa.me/9159919620"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-center space-y-3"
@@ -76,6 +72,20 @@ const Contact = () => {
                 </div>
                 <h3 className="font-bold text-foreground">WhatsApp</h3>
                 <p className="text-sm text-muted-foreground">Chat Instantly</p>
+              </a>
+
+              {/* Instagram */}
+              <a
+                href="https://www.instagram.com/_rc_factory_/" // <-- replace your page here
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-center space-y-3"
+              >
+                <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-pink-500/10 border border-pink-500/20">
+                  <Instagram className="w-7 h-7 text-pink-500" />
+                </div>
+                <h3 className="font-bold text-foreground">Instagram</h3>
+                <p className="text-sm text-muted-foreground">Follow Us</p>
               </a>
             </div>
 
