@@ -15,6 +15,8 @@ const About = () => {
     <section id="about" className="py-24 bg-muted/20">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
+          
+          {/* Left Section */}
           <div className="space-y-6">
             <h2 className="text-4xl md:text-5xl font-bold">
               Crafting Excellence
@@ -23,16 +25,19 @@ const About = () => {
                 One Layer at a Time
               </span>
             </h2>
+
             <p className="text-lg text-muted-foreground leading-relaxed">
               We're passionate about transforming ideas into tangible reality through cutting-edge
               3D printing technology. From intricate car models to custom Hot Wheels garages,
               every project receives our meticulous attention to detail.
             </p>
+
             <p className="text-lg text-muted-foreground leading-relaxed">
               Whether you're a collector seeking the perfect display solution or an enthusiast
               wanting to create something unique, we combine technical expertise with creative
               problem-solving to exceed your expectations.
             </p>
+
             <div className="pt-4">
               <Button variant="accent" size="lg">
                 Learn Our Story
@@ -40,6 +45,7 @@ const About = () => {
             </div>
           </div>
 
+          {/* Right Section - Highlights */}
           <div className="space-y-4">
             {highlights.map((highlight, index) => (
               <div
@@ -51,6 +57,7 @@ const About = () => {
               </div>
             ))}
           </div>
+
         </div>
       </div>
     </section>
